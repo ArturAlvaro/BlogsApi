@@ -1,7 +1,7 @@
 # <p align="center">Blogs API</p>
 
-![programming gif](https://giphy.com/gifs/screen-monitor-closeup-26tn33aiTi1jkl6H6)
-
+<img src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e472ww7y70zrfyql6aj1eimcul9oubuedk5e2l45u43&rid=giphy.gif&ct=g" align="right" />
+  
 ## Dependências
 
 * Hapi/Joi
@@ -246,9 +246,13 @@ npm install
 
 ![reposta correta de GET post/search](./images/getSearch.png)
 
-# <p align="center">Obrigado!</p>
+<p>&nbsp;</p>
 
-![thank you](https://giphy.com/gifs/the-office-thank-you-michael-scott-1Z02vuppxP1Pa)
+# <p align="center">Obrigado por chegar até aqui!</p>
+
+<div align="center">
+  <img src="https://media1.giphy.com/media/n4oKYFlAcv2AU/giphy.gif?cid=ecf05e47k4proh9828yhsf7jicofkeoq692r87e9nypalnr3&rid=giphy.gif&ct=g" />
+</div>
 
 <p>&nbsp;</p>
 
