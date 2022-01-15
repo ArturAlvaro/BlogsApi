@@ -1,7 +1,36 @@
 # <p align="center">Blogs API</p>
 
 <img src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e472ww7y70zrfyql6aj1eimcul9oubuedk5e2l45u43&rid=giphy.gif&ct=g" align="right" />
-  
+
+<p>&nbsp;</p>
+
+# Sumário
+
+- [Dependências](#dependências)
+- [Ao iniciar o projeto](#ao-iniciar-o-projeto)
+- [Entendendo o projeto](#entendendo-o-projeto)
+- [Rotas](#rotas)
+  - [/user](#user)
+    - [POST user](#post-user)
+    - [GET user](#get-user)
+    - [GET user/id](#get-userid)
+    - [DELETE user/me](#delete-userme)
+  - [/login](#login)
+    - [POST login](#post-login)
+  - [/categories](#categories)
+    - [POST categories](#post-categories)
+    - [GET categories](#get-categories)
+  - [/post](#post)
+    - [POST post](#post-post)
+    - [GET post](#get-post)
+    - [GET post/id](#get-postid)
+    - [PUT post/id](#put-postid)
+    - [DELETE post/id](#delete-postid)
+    - [GET post/search](#get-postsearch)
+- [Obrigado](#obrigado)
+- [Contato](#contato)
+
+
 ## Dependências
 
 * Hapi/Joi
@@ -30,7 +59,9 @@ npm install
 
 <p>&nbsp;</p>
 
-## A rota POST '/user' recebe no corpo da requisição os seguintes dados:
+## POST user
+
+### A rota POST '/user' recebe no corpo da requisição os seguintes dados:
 <p>&nbsp;</p>
 
 ~~~
@@ -54,7 +85,9 @@ npm install
 
 ![resposta correta na rota POST /user](./images/userSuccess.png)
 
-## A rota GET '/post' lista todos os usuários:
+## GET user
+
+### A rota GET '/user' lista todos os usuários:
 <p>&nbsp;</p>
 
 * Verifica se o usuário possui token de validação;
@@ -66,7 +99,9 @@ npm install
 
 ![resposta correta na rota GET /user](./images/getUser.png)
 
-## A rota GET '/user/:id' lista usuário específico:
+## GET user/id
+
+### A rota GET '/user/:id' lista usuário específico:
 
 <p>&nbsp;</p>
 
@@ -80,7 +115,9 @@ npm install
 
 ![resposta correta na rota GET /user/id](./images/getUserId.png)
 
-## A rota DELETE '/user/me' deleta o próprio usuário:
+## DELETE user/me
+
+### A rota DELETE '/user/me' deleta o próprio usuário:
 
 <p>&nbsp;</p>
 
@@ -93,7 +130,9 @@ npm install
 
 ## /login
 
-## A rota POST '/login' recebe os seguintes dados no corpo da requisição e realiza login:
+## POST login
+
+### A rota POST '/login' recebe os seguintes dados no corpo da requisição e realiza login:
 
 <p>&nbsp;</p>
 
@@ -116,7 +155,9 @@ npm install
 
 ## /categories
 
-## A rota POST '/categories' recebe os seguintes dados no corpo da requisição e cria uma nova categoria:
+## POST categories
+
+### A rota POST '/categories' recebe os seguintes dados no corpo da requisição e cria uma nova categoria:
 
 <p>&nbsp;</p>
 
@@ -136,7 +177,9 @@ npm install
 
 ![resposta correta de POST /categories](./images/postCategories.png)
 
-## A rota GET '/categories' lista todas as categorias:
+## GET categories
+
+### A rota GET '/categories' lista todas as categorias:
 
 <p>&nbsp;</p>
 
@@ -149,7 +192,9 @@ npm install
 
 ## /post
 
-## A rota POST '/post' recebe os seguintes dados no corpo da requisição e cria uma publicação:
+## POST post
+
+### A rota POST '/post' recebe os seguintes dados no corpo da requisição e cria uma publicação:
 
 <p>&nbsp;</p>
 
@@ -172,7 +217,9 @@ npm install
 
 ![resposta correta de POST /post](./images/postPost.png)
 
-## A rota GET '/post' lista todas as publicações:
+## GET post
+
+### A rota GET '/post' lista todas as publicações:
 
 <p>&nbsp;</p>
 
@@ -183,7 +230,9 @@ npm install
 
 ![a resposta correta de GET /post](./images/getPost.png)
 
-## A rota GET '/post/:id' lista uma publicação específica:
+## GET post/id
+
+### A rota GET '/post/:id' lista uma publicação específica:
 
 <p>&nbsp;</p>
 
@@ -195,7 +244,9 @@ npm install
 
 ![resposta correta de GET /post/:id](./images/getPostId.png)
 
-## A rota PUT '/post/:id' atualiza uma publicação e recebe os seguintes dados no corpo da requisição:
+## PUT post/id
+
+### A rota PUT '/post/:id' atualiza uma publicação e recebe os seguintes dados no corpo da requisição:
 
 <p>&nbsp;</p>
 
@@ -218,7 +269,9 @@ npm install
 
 ![resposta correta de PUT post/:id](./images/putPostId.png)
 
-## A rota DELETE /post/:id deleta uma publicação específica:
+## DELETE post/id
+
+### A rota DELETE /post/:id deleta uma publicação específica:
 
 <p>&nbsp;</p>
 
@@ -231,7 +284,9 @@ npm install
 
 ![a resposta correta de DELETE post/:id](./images/deletePostId.png)
 
-## A rota GET post/search?q=:searchTerm exibe o resultado procurado:
+## GET post/search
+
+### A rota GET post/search?q=:searchTerm exibe o resultado procurado:
 
 <p>&nbsp;</p>
 
@@ -248,7 +303,7 @@ npm install
 
 <p>&nbsp;</p>
 
-# <p align="center">Obrigado por chegar até aqui!</p>
+# <p align="center">Obrigado</p>
 
 <div align="center">
   <img src="https://media1.giphy.com/media/n4oKYFlAcv2AU/giphy.gif?cid=ecf05e47k4proh9828yhsf7jicofkeoq692r87e9nypalnr3&rid=giphy.gif&ct=g" />
