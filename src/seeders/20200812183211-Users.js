@@ -3,17 +3,17 @@ module.exports = {
     await queryInterface.bulkInsert('Users',
       [{
         id: 1,
-        displayName: 'Lewis Hamilton',
-        email: 'lewishamilton@gmail.com',
+        displayName: 'Amy Hamilton',
+        email: 'amyhamilton@gmail.com',
         password: '123456',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Lewis_Hamilton_2016_Malaysia_2.jpg',
+        image: 'https://cdn-icons.flaticon.com/png/512/706/premium/706807.png?token=exp=1646319495~hmac=c38685f6ed6d97e2b95340a29281870e',
       },
       {
         id: 2,
-        displayName: 'Michael Schumacher',
-        email: 'MichaelSchumacher@gmail.com',
+        displayName: 'Michael Schopenhauer',
+        email: 'michaelschopenhauer@gmail.com',
         password: '123456',
-        image: 'https://sportbuzz.uol.com.br/media/_versions/gettyimages-52491565_widelg.jpg',
+        image: 'https://cdn-icons.flaticon.com/png/512/706/premium/706807.png?token=exp=1646319495~hmac=c38685f6ed6d97e2b95340a29281870e',
       },
       ], { timestamps: false });
   },
