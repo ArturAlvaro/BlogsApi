@@ -1,14 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const errorController = require('../controllers/errorController');
 const rootRouter = require('../routes/root');
 
 const app = express();
 app.use(express.json());
 
-// não remova esse endpoint, e para o avaliador funcionar
-app.get('/', (request, response) => {
-  response.send();
-});
+app.use(cors());
 
 app.use('/', rootRouter);
 app.use(errorController);
