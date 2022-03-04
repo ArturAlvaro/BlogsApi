@@ -16,7 +16,9 @@ const authLogin = async (req, res, next) => {
     const findEmail = await Users.findOne({ where: { email, password } });
     if (!findEmail) return res.status(BAD_REQUEST).json(invalidFields);
 
-    req.user = findEmail;
+    const { dataValues: { password: userPassword, ...userInfo } } = findEmail;
+    req.user = userInfo;
+    console.log(userInfo);
     req.token = jwt.sign({ data: findEmail }, API_SECRET);
     next();
   } catch (err) {
