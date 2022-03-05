@@ -6,14 +6,14 @@ module.exports = {
         displayName: 'Amy Hamilton',
         email: 'amyhamilton@gmail.com',
         password: '123456',
-        image: 'https://github.com/ArturAlvaro/BlogsApi/blob/34bacc1cebf4723cc5c925dab2e3a3a3ef23850c/images/woman.png',
+        image: 'https://raw.githubusercontent.com/ArturAlvaro/BlogsApi/34bacc1cebf4723cc5c925dab2e3a3a3ef23850c/images/woman.png',
       },
       {
         id: 2,
         displayName: 'Michael Schopenhauer',
         email: 'michaelschopenhauer@gmail.com',
         password: '123456',
-        image: 'https://github.com/ArturAlvaro/BlogsApi/blob/34bacc1cebf4723cc5c925dab2e3a3a3ef23850c/images/man%20.png',
+        image: 'https://raw.githubusercontent.com/ArturAlvaro/BlogsApi/34bacc1cebf4723cc5c925dab2e3a3a3ef23850c/images/man%20.png',
       },
       ], { timestamps: false });
   },
