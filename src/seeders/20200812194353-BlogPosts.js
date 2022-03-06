@@ -12,7 +12,7 @@ module.exports = {
         },
         {
           id: 2,
-          title: 'Vamos que vamos',
+          title: 'Meu Post',
           content: 'Foguete não tem ré',
           userId: 2,
           published: new Date('2011-08-01T19:58:00.000Z'),
