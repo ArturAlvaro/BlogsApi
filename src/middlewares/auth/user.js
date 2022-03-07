@@ -12,7 +12,7 @@ const authUser = async (req, res, next) => {
   const { filename: image } = req.file;
 
   try {
-    const { error } = schemaUser.validate({ displayName, email, password });
+    const { error } = schemaUser.validate({ displayName, email, password, image });
     if (error) return res.status(BAD_REQUEST).json({ message: error.details[0].message });
 
     const findEmail = await Users.findOne({ where: { email } });
