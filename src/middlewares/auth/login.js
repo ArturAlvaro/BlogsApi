@@ -18,7 +18,6 @@ const authLogin = async (req, res, next) => {
 
     const { dataValues: { password: userPassword, ...userInfo } } = findEmail;
     req.user = userInfo;
-    console.log(userInfo);
     req.token = jwt.sign({ data: findEmail }, API_SECRET);
     next();
   } catch (err) {

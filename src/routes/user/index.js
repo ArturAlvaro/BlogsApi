@@ -8,7 +8,7 @@ const userRoute = express.Router({ mergeParams: true });
 
 userRoute.get('/:id', validate, findByPk);
 userRoute.get('/', validate, findAll);
-userRoute.post('/', authUser, multer.single('image'), create);
+userRoute.post('/', multer.single('image'), authUser, create);
 userRoute.delete('/me', validate, deleteMe);
 
 module.exports = userRoute;

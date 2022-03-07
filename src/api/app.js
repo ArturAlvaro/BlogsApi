@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(cors());
 
-app.use(express(path.resolve(__dirname, '..', 'uploads')));
+app.use(express.static(path.resolve(__dirname, '..', 'uploads')));
 app.use('/', rootRouter);
 app.use(errorController);
 
